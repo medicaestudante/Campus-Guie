@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Guie - Educação Global e Oportunidades Internacionais</title>
+    <meta name="description" content="Campus Guie oferece educação de qualidade, oportunidades globais e uma comunidade dedicada ao crescimento acadêmico e profissional.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Campus Guie - Educação Global">
+    <meta property="og:description" content="Educação de qualidade e oportunidades internacionais">
+    <meta property="og:type" content="website">
+    
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap" rel="stylesheet">
+    
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="fotos/logo-horizontal.png" alt="Campus Guie" class="logo-image logo-horizontal">
+                <img src="fotos/logo-vertical.png" alt="Campus Guie" class="logo-image logo-vertical">
+            </div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#diretoria">Equipe</a></li>
+                <li><a href="#editais">Editais</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#aulas">Aulas</a></li>
+                <li><a href="#comunidade">Comunidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                    🌙
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    ☰
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <svg class="symbol symbol-compass" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6l5.25 3.15.75-1.23-4-2.42z"/>
+            </svg>
+            <svg class="symbol symbol-globe" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+            <svg class="symbol symbol-book" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+            </svg>
+            
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <h1>Campus Guie</h1>
+                    <p>Conectando talentos brasileiros a oportunidades globais através de educação de qualidade, mentoria especializada e uma comunidade dedicada ao crescimento acadêmico e profissional.</p>
+                    <div class="cta-buttons">
+                        <a href="#projetos" class="btn btn-primary">Conheça nossos projetos</a>
+                        <a href="#comunidade" class="btn btn-secondary">Entrar na comunidade</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container">
+                <h2>Nossa Missão</h2>
+                <div class="grid grid-2">
+                    <div>
+                        <p>O Campus Guie é uma organização comprometida em democratizar o acesso à educação internacional de qualidade. Nossa missão é preparar estudantes brasileiros para as melhores oportunidades acadêmicas globais através de mentoria especializada, recursos educacionais e uma comunidade engajada.</p>
+                        <p>Acreditamos que todo talento merece oportunidade, independentemente de sua origem. Por isso, oferecemos programas de bolsas, workshops gratuitos e uma plataforma de conexão entre mentores experientes e estudantes ambiciosos.</p>
+                    </div>
+                    <div>
+                        <img src="fotos/foto-estudantes.jpg" alt="Estudantes Campus Guie" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="diretoria">
+            <div class="container">
+                <h2>Nossa Diretoria</h2>
+                <div class="grid grid-3">
+                    <div class="card team-card">
+                        <div class="team-photo">👤</div>
+                        <h3>Ana Silva</h3>
+                        <p>Diretora Executiva</p>
+                        <p>PhD em Educação Internacional, 15 anos de experiência em programas de intercâmbio.</p>
+                    </div>
+                    <div class="card team-card">
+                        <div class="team-photo">👤</div>
+                        <h3>Carlos Santos</h3>
+                        <p>Diretor Acadêmico</p>
+                        <p>Especialista em admissões internacionais, ex-admissions officer em universidades Ivy League.</p>
+                    </div>
+                    <div class="card team-card">
+                        <div class="team-photo">👤</div>
+                        <h3>Maria Oliveira</h3>
+                        <p>Diretora de Comunidade</p>
+                        <p>Psicóloga educacional focada em desenvolvimento de liderança e networking estudantil.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="editais">
+            <div class="container">
+                <h2>Editais Abertos</h2>
+                <p>Confira nossos editais ativos e candidate-se às oportunidades:</p>
+                
+                <div class="edital-item">
+                    <div class="edital-date">15/02/2024</div>
+                    <div>
+                        <h3>Programa de Bolsas 2024</h3>
+                        <p>Inscrições abertas para bolsas integrais de mentoria e preparação para universidades internacionais.</p>
+                        <button class="btn btn-secondary" onclick="openModal('editalBolsas')">Ver detalhes</button>
+                    </div>
+                </div>
+                
+                <div class="edital-item">
+                    <div class="edital-date">01/03/2024</div>
+                    <div>
+                        <h3>Workshop Gratuito: Application Essays</h3>
+                        <p>Workshop intensivo sobre como escrever essays impactantes para admissões internacionais.</p>
+                        <button class="btn btn-secondary" onclick="openModal('editalWorkshop')">Ver detalhes</button>
+                    </div>
+                </div>
+                
+                <div class="edital-item">
+                    <div class="edital-date">20/03/2024</div>
+                    <div>
+                        <h3>Programa de Mentoria Peer-to-Peer</h3>
+                        <p>Conecte-se com estudantes já matriculados em universidades internacionais para orientação personalizada.</p>
+                        <button class="btn btn-secondary" onclick="openModal('editalMentoria')">Ver detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container">
+                <h2>Nossos Projetos</h2>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <h3>🎓 Guie Academy</h3>
+                        <p>Plataforma de cursos preparatórios para testes padronizados (SAT, TOEFL, GRE) e workshops sobre admissões internacionais.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🤝 Mentoria One-on-One</h3>
+                        <p>Programa de mentoria individualizada conectando estudantes a profissionais e acadêmicos experientes no processo de application.</p>
+                    </div>
+                    <div class="card">
+                        <h3>💼 Career Connect</h3>
+                        <p>Rede de networking para conectar estudantes a oportunidades de estágio e emprego em empresas globais.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📚 Biblioteca de Recursos</h3>
+                        <p>Acervo digital com guides, templates de essays, webinars gravados e materiais de estudo gratuitos.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🌍 Global Exchange</h3>
+                        <p>Programa de intercâmbio cultural e acadêmico em parceria com universidades internacionais.</p>
+                    </div>
+                    <div class="card">
+                        <h3>💡 Innovation Lab</h3>
+                        <p>Espaço para desenvolvimento de projetos de pesquisa e empreendedorismo estudantil com orientação especializada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aulas">
+            <div class="container">
+                <h2>Aulas e Conteúdos</h2>
+                <p>Assista nossas aulas e tutoriais no YouTube:</p>
+                
+                <div class="grid grid-2">
+                    <div class="video-thumbnail" onclick="openVideo('dQw4w9WgXcQ')">
+                        <h4>Como Escrever o Personal Statement Perfeito</h4>
+                        <div class="youtube-button">▶ Assistir no YouTube</div>
+                    </div>
+                    
+                    <div class="video-thumbnail" onclick="openVideo('dQw4w9WgXcQ')">
+                        <h4>Estratégias para o SAT - Dicas Essenciais</h4>
+                        <div class="youtube-button">▶ Assistir no YouTube</div>
+                    </div>
+                    
+                    <div class="video-thumbnail" onclick="openVideo('dQw4w9WgXcQ')">
+                        <h4>Financiamento e Bolsas Internacionais</h4>
+                        <div class="youtube-button">▶ Assistir no YouTube</div>
+                    </div>
+                    
+                    <div class="video-thumbnail" onclick="openVideo('dQw4w9WgXcQ')">
+                        <h4>Entrevista com Ex-Aluno em Harvard</h4>
+                        <div class="youtube-button">▶ Assistir no YouTube</div>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="https://youtube.com/@campusguie" target="_blank" class="btn btn-primary">Ver todos os vídeos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="comunidade">
+            <div class="container">
+                <h2>Comunidade</h2>
+                <div class="grid grid-2">
+                    <div>
+                        <h3>Junte-se à Nossa Comunidade</h3>
+                        <p>Faça parte de uma rede vibrante de estudantes, mentores e profissionais dedicados ao crescimento acadêmico e profissional.</p>
+                        <ul style="margin-left: 1.5rem; color: var(--text-light);">
+                            <li>Networking com estudantes de todo o Brasil</li>
+                            <li>Eventos mensais e workshops exclusivos</li>
+                            <li>Acesso a recursos e materiais de estudo</li>
+                            <li>Oportunidades de mentoria e colaboração</li>
+                        </ul>
+                        <div style="margin-top: 2rem;">
+                            <a href="https://discord.gg/campusguie" target="_blank" class="btn btn-primary">Entrar no Discord</a>
+                            <a href="https://chat.whatsapp.com/campusguie" target="_blank" class="btn btn-secondary">Grupo WhatsApp</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="fotos/foto-estudantes.jpg" alt="Comunidade Campus Guie" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <div class="grid grid-2">
+                    <div>
+                        <h3>Fale Conosco</h3>
+                        <p>Tem dúvidas sobre nossos programas? Quer saber mais sobre como podemos ajudá-lo? Preencha o formulário e entraremos em contato em até 48 horas.</p>
+                        <div style="margin-top: 2rem;">
+                            <p><strong>Email:</strong> contato@campusguie.com</p>
+                            <p><strong>Telefone:</strong> (11) 9999-9999</p>
+                            <p><strong>Horário:</strong> Seg-Sex, 9h-18h</p>
+                        </div>
+                    </div>
+                    <div>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome completo *</label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="error" id="nameError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="error" id="emailError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensagem *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <div class="error" id="messageError"></div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Campus Guie</h3>
+                    <p>Conectando talentos brasileiros a oportunidades globais.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/campusguie" target="_blank" aria-label="Instagram">📷</a>
+                        <a href="https://linkedin.com/company/campusguie" target="_blank" aria-label="LinkedIn">💼</a>
+                        <a href="https://youtube.com/@campusguie" target="_blank" aria-label="YouTube">▶️</a>
+                        <a href="https://twitter.com/campusguie" target="_blank" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4>Links Rápidos</h4>
+                    <ul style="list-style: none;">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#editais">Editais</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>Programas</h4>
+                    <ul style="list-style: none;">
+                        <li><a href="#projetos">Guie Academy</a></li>
+                        <li><a href="#projetos">Mentoria</a></li>
+                        <li><a href="#projetos">Career Connect</a></li>
+                        <li><a href="#aulas">Aulas Online</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>Recursos</h4>
+                    <ul style="list-style: none;">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Biblioteca</a></li>
+                        <li><a href="#comunidade">Comunidade</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Campus Guie. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para Editais -->
+    <div id="editalModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- Modal para Vídeos -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeVideoModal()">&times;</button>
+            <div id="videoContainer"></div>
+        </div>
+    </div>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
